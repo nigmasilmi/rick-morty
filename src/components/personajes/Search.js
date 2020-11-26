@@ -39,6 +39,7 @@ const Search = (props) => {
                     className="btn btn-dark btn-block"
                 />
             </form>
+            {props.showClear && <button className="btn btn-light btn-block" onClick={props.clearChars}>Limpiar</button>}
 
         </div>
     )

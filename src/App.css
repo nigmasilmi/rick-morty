@@ -381,12 +381,22 @@ table th {
   margin-right: 0.6rem;
 }
 
+/* Specials */
+
+.dimension{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.dimension-title{
+  background: var(--dark-color);
+  color: var(--light-color);
+}
+
 /* Mobile Styles */
 @media (max-width: 700px) {
-  .container{
-    display: flex;
-    flex-direction: column;
-  }
 
   .hide-sm {
     display: none;
@@ -421,4 +431,10 @@ table th {
     text-align: center;
     justify-content: center;
   }
+
+.dimension {
+  justify-content: center;
+  align-items:center;
+  text-align:center;
+}
 }
