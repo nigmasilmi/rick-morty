@@ -11,10 +11,10 @@ const PersonajeItem = (props) => {
                 style={{ width: '60px' }}
             />
             <h3>{personaje.name}</h3>
-            {personaje.id}
-            {personaje.status}
-            {personaje.species}
-            {personaje.origin.name}
+            {/* {personaje.id} */}
+            <p>Status: {personaje.status} </p>
+            <p>Especie: {personaje.species}</p>
+            <p>Origen: {personaje.origin.name}</p>
             {/* {personaje.location.name} */}
 
         </div>
