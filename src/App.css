@@ -388,6 +388,8 @@ table th {
   justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
+  text-align:center;
+
 }
 
 .dimension-title{
@@ -435,6 +437,5 @@ table th {
 .dimension {
   justify-content: center;
   align-items:center;
-  text-align:center;
 }
 }
